@@ -6,6 +6,11 @@
     font-size: 17px;
 }
 
+.hero-section {
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
 .container {
     width: 90%;
     height: auto;
@@ -56,15 +61,82 @@
 .hero-hireme-btn a {
     height: 45px;
     display: block;
-    padding: 12px 20px 0px 20px;
+    padding: 10px 20px 0px 20px;
     background-image: linear-gradient(45deg, #FB6B58, #FFA132);
     color: white;
     border-radius: 5px;
     display: block;
     text-decoration: none;
     font-family: 'Poppins';
+    font-size: 16px;
 }
 
 .hero-hireme-btn a:hover {
     background-image: linear-gradient(45deg, #FFA132, #FB6B58);
+}
+
+.text-normal {
+    font-family: 'Poppins';
+    font-weight: 400 !important;
+}
+
+.second-section {
+    height: 550px;
+    margin: auto;
+}
+
+.left-img {
+    width: 50%;
+    float: left;
+}
+
+.left-img img {
+    height: 80%;
+    width: 80%;
+}
+
+.second-section-content {
+    width: 50%;
+    float: left;
+    padding-top: 60px;
+    font-family: 'Poppins';
+}
+
+.second-section {
+    background-image: url('../images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+.second-section-content h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+}
+
+.second-section-content h4 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.donwload-mycv-btn {
+    width: 35%;
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.donwload-mycv-btn a {
+    height: 45px;
+    display: block;
+    background-image: linear-gradient(90deg, #FB6B58, #FFA132);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    padding: 10px 20px 0px 20px;
+    font-size: 16px;
 }
